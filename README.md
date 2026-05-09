@@ -71,35 +71,35 @@ index=main
 ### Splunk Enterprise Environment
 Demonstrates the Splunk Enterprise environment used throughout the lab.
 
-![Splunk Enterprise Home](screenshots/splunk-enterprise-home.png)
+![Splunk Enterprise Home](screenshots/splunk-dashboard.png)
 
 ---
 
-### Windows Security Event Log Analysis
-Shows ingestion and analysis of Windows Security Event Logs within Splunk.
+### Windows Event Log Analysis
+Shows ingestion and analysis of Windows event logs within Splunk.
 
-![Windows Security Logs](screenshots/security-event-log-analysis.png)
+![Windows Event Logs](screenshots/windows-event-logs.png)
 
 ---
 
 ### Failed Login Detection — Event ID 4625
-Demonstrates detection and investigation of failed login attempts using Windows authentication event logs.
+Demonstrates investigation of failed Windows authentication attempts using Splunk SPL queries.
 
-![Failed Login Detection](screenshots/failed-login-detection.png)
+![Failed Login Detection](screenshots/failed-login-search.png)
 
 ---
 
 ### Successful Login Monitoring — Event ID 4624
-Shows monitoring and analysis of successful authentication events.
+Shows monitoring and analysis of successful Windows authentication events.
 
-![Successful Login Monitoring](screenshots/successful-login-events.png)
+![Successful Login Monitoring](screenshots/successful-login-search.png)
 
 ---
 
-### General Windows Event Log Search
-Demonstrates querying and reviewing ingested Windows event logs in Splunk.
+### Windows Security Event Monitoring
+Demonstrates monitoring and investigation of Windows Security event logs.
 
-![Windows Event Search](screenshots/windows-event-log-search.png)
+![Security Event Monitoring](screenshots/security-event-logs.png)
 
 ---
 
@@ -108,7 +108,6 @@ Custom Splunk dashboard visualizing Windows event log activity and security moni
 
 ![SOC Monitoring Dashboard](screenshots/soc-monitoring-dashboard.png)
 
----
 
 ## Skills Demonstrated
 - SIEM Monitoring
